@@ -8,7 +8,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['pontos-turisticos94.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['pontos-turisticos94.herokuapp.com', 'localhost']
 
 
 INSTALLED_APPS = [
